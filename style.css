@@ -206,6 +206,10 @@ a:hover {
   transition: box-shadow 0.2s;
 }
 
+.featured-card + .featured-card {
+  margin-top: 24px;
+}
+
 .featured-card:hover {
   box-shadow: var(--shadow-hover);
 }
@@ -407,6 +411,26 @@ a:hover {
 
 .article-body ul li {
   margin-bottom: 8px;
+}
+
+.article-figure {
+  margin: 28px 0;
+  text-align: center;
+}
+
+.article-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+}
+
+.article-figure figcaption {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-top: 10px;
 }
 
 .author-box {
