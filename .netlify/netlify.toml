@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\Qt-India\\myWorkspace\\Mystuff\\gvkumar\\blog"
+publish = "/Users/qtindia/Documents/myplayground/ollama_play/gvkumar/blog"
 publishOrigin = "default"
 
 [build.environment]
